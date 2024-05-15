@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1075521008689",
+    "firebase_url": "https://geeke-shop-default-rtdb.firebaseio.com",
+    "project_id": "geeke-shop",
+    "storage_bucket": "geeke-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075521008689:android:f06679cf3856975794d110",
+        "android_client_info": {
+          "package_name": "com.example.tienda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV2LUCo-TvIVCXLmynKYYj7MRQm4E7p-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
