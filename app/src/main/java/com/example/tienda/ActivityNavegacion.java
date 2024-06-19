@@ -43,11 +43,10 @@ public class ActivityNavegacion extends AppCompatActivity {
             public void onClick(View v) {
                 irACuenta();}
         });
-        homen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                irAHome();}
-        });
+
+        homen.setOnClickListener((v) -> {irAHome();});
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.scrollView), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -63,6 +62,8 @@ public class ActivityNavegacion extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+
     public void irCatalogoMujer() {
         Intent intent = new Intent(this, MainCatalogoFemenino.class);
         startActivity(intent);
@@ -71,4 +72,5 @@ public class ActivityNavegacion extends AppCompatActivity {
         Intent intent = new Intent(this, MainCatalogoUnisex.class);
         startActivity(intent);
     }
+
 }
